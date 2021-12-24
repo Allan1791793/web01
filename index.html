@@ -11,11 +11,15 @@
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/Navbar.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet"></head>
 
 <body style="background-image: url(./images/1.jpg);background-size: cover;">
     <div class="container-fluid">
+
         <nav style="background-color:#114B5F;" class="navbar navbar-expand-sm navbar-dark fixed-top">
             <div class="container-fluid">
 
@@ -27,13 +31,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class=" collapse navbar-collapse gx-4" id="mynavbar">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item m-3">
-                        </li>
-                    </ul>
+                <div class="collapse navbar-collapse gx-4 justify-content-sm-end" id="mynavbar">
 
-                    <ul id="a2" class="navbar-nav d-flex">
+                    <ul class="a2 navbar-nav d-flex">
                         <li class="btn nav-item">
                             <a class="nav-link" href="home.html">HOME</a>
                         </li>
@@ -56,26 +56,16 @@
                 </div>
             </div>
         </nav>
-    </div>
-
-    <div class="container">
-        <div class="row">
+        <div class="row" style="margin: 15%;">
             <div class="col-12 m-2">
                 <img src="images/logo-2.svg" class="float-start" alt="logo-2" style="width:300px;">
             </div>
-            <div class="col-12 m-2">
-                <button id="a1" type="button" class="btn" style="font-size:22px;" href="home.html">
+            <ul class="col-12 m-2">
+                <a id="a1" type="進入首頁" class="btn" style="font-size:22px;" href="home.html">
                     進入首頁
-                </button>
-            </div>
+                </a>
+            </ul>
         </div>
-    </div>
-    <div class="container-fluid">
-        <section class="fixed-bottom text-center" style="background-color:#114B5F;color:#ffffff;font-size:10px;">
-            <footer style="margin: 20px">
-                <p>如果喜歡我們的作品，歡迎聯絡</p>
-            </footer>
-        </section>
     </div>
 </body>
 
