@@ -1,0 +1,14 @@
+#a2 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 40px;
+}
+
+.a2 li:hover {
+  background-color: #0c8d9e;
+  color: #ffffff;
+}
+
+.a2 li:active {
+  background-color: #6ab1bb;
+  color: #ffffff;
+}
