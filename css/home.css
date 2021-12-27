@@ -1,12 +1,20 @@
-.author {
+.author a{
+    color:#7c7c7c80;
+    text-decoration:none;
+}
 
+.author a:hover{
+    color:#114B5F;
+    text-decoration:none;
 }
 
 .author .Avatar {
     border-style: solid;
-    border-color: rgba(124, 124, 124, 0.5);
-    width: auto;
-    height: auto
+    border-color: #7c7c7c80;
+    border-width:2px;
+    width:150px;
+    height:150px;
+
 }
 
 .name {
@@ -14,10 +22,16 @@
     text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
+    margin:0
 }
 
 .author svg{
     color: #114B5F;
     width:20px;
     height:20px;
+    margin:5px 10px 5px 0px;
+}
+
+.author p{
+    margin:5px 0 5px 0;
 }
