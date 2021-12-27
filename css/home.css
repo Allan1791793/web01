@@ -1,19 +1,28 @@
-.author a{
+html, body {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  
+.b342 a{
     color:#7c7c7c80;
     text-decoration:none;
 }
 
-.author a:hover{
-    color:#114B5F;
+.b342 a:hover{
+    color:#028090;
     text-decoration:none;
 }
 
 .author .Avatar {
     border-style: solid;
     border-color: #7c7c7c80;
-    border-width:2px;
-    width:150px;
-    height:150px;
+    border-width:1px;
+    max-width:150px;
+    max-height:150px;
+    width:auto;
+    height:auto;
 
 }
 
@@ -22,7 +31,7 @@
     text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
-    margin:0
+    margin-bottom:0px;
 }
 
 .author svg{
@@ -35,3 +44,14 @@
 .author p{
     margin:5px 0 5px 0;
 }
+
+.b2{
+    background-color:#F45B69 ;
+    color: #ffffff
+}
+
+.b2:hover{
+    background-color:#456990 ;
+    color: #ffffff
+}
+

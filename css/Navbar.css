@@ -13,3 +13,13 @@
   color: #ffffff;
 }
 
+footer {
+  height: 200px; /*設定footer本身高度*/
+  margin-top:150px; /*隨footer高度需做調整*/
+  background-color: #0c8d9e;
+}
+
+footer p{
+  padding: 50px;
+  color: #ffffff;
+}
