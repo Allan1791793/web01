@@ -1,0 +1,23 @@
+.author {
+
+}
+
+.author .Avatar {
+    border-style: solid;
+    border-color: rgba(124, 124, 124, 0.5);
+    width: auto;
+    height: auto
+}
+
+.name {
+    color: #114B5F;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.author svg{
+    color: #114B5F;
+    width:20px;
+    height:20px;
+}
