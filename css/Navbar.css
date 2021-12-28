@@ -1,15 +1,15 @@
 #a2 {
-  font-family: 'Baloo2 Regular', cursive;
   font-size: 40px;
+  color: #ffffff;
 }
 
 .a2 li:hover {
-  background-color: #0c8d9e;
+  background-color:#0c8d9e;
   color: #ffffff;
 }
 
 .a2 li:active {
-  background-color: #6ab1bb;
+  background-color: #F45B69;
   color: #ffffff;
 }
 
@@ -22,4 +22,13 @@ footer {
 footer p{
   padding: 50px;
   color: #ffffff;
+}
+
+.active{
+  background-color: #0c8d9e;
+  color: #ffffff;
+}
+
+button.active{
+  border-width:0px;
 }

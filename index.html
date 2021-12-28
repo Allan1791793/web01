@@ -18,20 +18,22 @@
 <body style="background-image: url(./images/1.jpg);">
     <div class="container-fluid">
         <div class="row">
-            <nav style="background-color:#114B5F;" class="navbar navbar-expand-sm navbar-dark">
+            <nav style="background-color:#114B5F;backdrop-filter: blur(100px);"
+                class="navbar navbar-expand-sm navbar-dark fixed-top">
                 <div class="container-fluid">
 
                     <a class="btn navbar-brand" href="index.html">
-                        <img src="images/logo-2.svg" alt="Avatar Logo" style="width:60px;">
+                        <img src="images/logo-2.svg" alt="Logo" style="width:60px;">
                     </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mynavbar" style="border-width:0px;">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse gx-4 justify-content-sm-end" id="mynavbar">
-
-                        <ul class="a2 navbar-nav d-flex">
+                    <div class="collapse navbar-collapse justify-content-sm-end" id="mynavbar"
+                        style="margin:5px 0px 5px 0px;">
+                        <ul class="a2 navbar-nav d-flex gap-3">
                             <li class="btn nav-item">
                                 <a class="nav-link" href="home.html">HOME</a>
                             </li>
@@ -47,14 +49,15 @@
                         </ul>
 
                         <!--<form class="navbar-nav d-flex">
-                        <input class="form-control me-2 " type="text" placeholder="關鍵字">
-                        <button style="background-color: #F45B69;color:#ffffff" class="btn"
-                            type="button">Search</button>
-                    </form>-->
+                            <input class="form-control me-2 " type="text" placeholder="關鍵字">
+                            <button style="background-color: #F45B69;color:#ffffff" class="btn"
+                                type="button">Search</button>
+                        </form>-->
                     </div>
                 </div>
             </nav>
         </div>
+
         <div class="row position-absolute top-50 start-50 translate-middle">
             <div class="col-12 m-2">
                 <img src="images/logo-2.svg" class="float-start" alt="logo-2" style="width:300px;">

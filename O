@@ -1,0 +1,48 @@
+<div class="container-fluid">
+        <div class="row">
+            <nav style="background-color:#114B5F;backdrop-filter: blur(100px);"
+                class="navbar navbar-expand-sm navbar-dark fixed-top">
+                <div class="container-fluid">
+
+                    <a class="btn navbar-brand" href="index.html">
+                        <img src="images/logo-2.svg" alt="Avatar Logo" style="width:60px;">
+                    </a>
+
+                    <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mynavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-sm-end" id="mynavbar">
+                        <ul class="navbar-nav d-flex">
+                            <div class="d-grid gap-1 d-md-flex justify-content-md-end">
+                                <a class="b2 btn" href="#" role="">HOME</a>
+                                <a class="b2 btn" href="./allan.html" role="">Wan Zhen</a>
+                                <a class="b2 btn" href="./allan.html" role="">UBin</a>
+                                <a class="b2 btn" href="./allan.html" role="">Cheng Chun</a>
+                            </div>
+                            
+                            <!--<li class="b2 btn nav-item active">
+                                <a class="" href="./allan.html" role="">Next</a>
+                            </li>
+                            <li class="btn nav-item">
+                                <a class="nav-link" href="woza.html">Wan Zhen</a>
+                            </li>
+                            <li class="btn nav-item">
+                                <a class="nav-link" href="ubin.html">UBin</a>
+                            </li>
+                            <li class="btn nav-item">
+                                <a class="nav-link" href="allan.html">Cheng Chun</a>
+                            </li>-->
+                        </ul>
+
+                        <!--<form class="navbar-nav d-flex">
+                        <input class="form-control me-2 " type="text" placeholder="關鍵字">
+                        <button style="background-color: #F45B69;color:#ffffff" class="btn"
+                            type="button">Search</button>
+                    </form>-->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>

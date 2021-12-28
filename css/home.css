@@ -6,7 +6,8 @@ html, body {
 
   
 .b342 a{
-    color:#7c7c7c80;
+    color:rgb(53, 53, 53);
+    font-size: 12px;
     text-decoration:none;
 }
 
@@ -28,6 +29,14 @@ html, body {
 
 .name {
     color: #114B5F;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom:0px;
+}
+
+.name:hover {
+    color: #2186a8;
     text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
