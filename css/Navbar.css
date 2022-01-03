@@ -5,50 +5,33 @@ body {
 }
 
 ::-webkit-scrollbar {
-
   width: 8px;
   height: 8px;
-
 }
 
 ::-webkit-scrollbar-button {
-  border-radius: 0px;
+  border-radius: px;
   background: #00000000;
-
 }
 
 ::-webkit-scrollbar-track-piece {
-
   background: #05050500;
-
 }
 
 ::-webkit-scrollbar-thumb {
-
   border-radius: 5px;
-
-
   background-color: rgba(0, 0, 0, 0.267);
-
   border: 5px solid rgba(184, 53, 53, 0);
-
 }
 
-::-webkit-scrollbar-thumb:active {
-
+::-webkit-scrollbar-thumb:hover {
   border-radius: 5px;
-
-
-  background-color: #0c8d9e;
-
+  background-color: rgba(204, 204, 204, 0.603);
   border: 5px solid rgba(184, 53, 53, 0);
-
 }
 
 ::-webkit-scrollbar-track {
-
   box-shadow: transparent;
-
 }
 
 #a2 {
@@ -66,17 +49,38 @@ body {
   color: #ffffff;
 }
 
+#a3 {
+  background-color: #F45B69;
+  color: #ffffff;
+}
+
+#a3:hover {
+  background-color: #f17f89;
+  color: #ffffff;
+}
+
+#a3:active {
+  background-color: #456990;
+  color: #ffffff;
+}
+
 footer {
   height: 200px;
   /*設定footer本身高度*/
   margin-top: 150px;
   /*隨footer高度需做調整*/
   background-color: #0c8d9e;
+  color: #ffffff;
 }
 
 footer p {
-  padding: 50px;
+  padding: 10px;
   color: #ffffff;
+}
+
+footer svg {
+  width: 20px;
+  height: 20px;
 }
 
 .active {

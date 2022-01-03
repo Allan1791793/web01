@@ -8,8 +8,6 @@
     <meta name="description" content="" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="styles.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/Navbar.css">
     <link rel="stylesheet" href="css/na.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
@@ -20,7 +18,7 @@
     <!--導覽列-->
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row align-items-center">
             <nav style="background-color:#114B5F;backdrop-filter: blur(100px);"
                 class="navbar navbar-expand-sm navbar-dark fixed-top">
                 <div class="container-fluid">
@@ -40,14 +38,17 @@
                             <li class="btn nav-item">
                                 <a class="nav-link" href="home.html">HOME</a>
                             </li>
-                            <li class="btn nav-item">
-                                <a class="nav-link" href="woza.html">Wan Zhen</a>
+                            <li class="btn nav-item active">
+                                <a class="nav-link" href="#">Wan Zhen</a>
                             </li>
                             <li class="btn nav-item">
                                 <a class="nav-link" href="ubin.html">UBin</a>
                             </li>
                             <li class="btn nav-item">
                                 <a class="nav-link" href="allan.html">Cheng Chun</a>
+                            </li>
+                            <li id="a3" class="btn nav-item">
+                                <a class="nav-link" href="#">Log in</a>
                             </li>
                         </ul>
                     </div>
@@ -62,8 +63,7 @@
             <div class="row author w-auto gy-2 justify-content-center" style="margin:0 0 0 0">
 
                 <div class="col-md-12 col-lg-4 gx-5" style="width: auto;height: auto">
-                    <img src="./images/浣熊.jpg"
-                        class="Avatar img-fluid rounded-circle rounded mx-auto d-block" alt=""
+                    <img src="./images/浣熊.jpg" class="Avatar img-fluid rounded-circle rounded mx-auto d-block" alt=""
                         style="margin:0 0 15px 0">
                     <h4 class="name" style="margin:0 0 0px 0">Wan Zhen</h4>
 
@@ -109,7 +109,7 @@
             <div class="container gy-2">
                 <div id="s1" class="row g-2">
                     <div class="col-sm-12 col-md-6">
-                        <div class="p-3">大圖</div>
+                        <div class="zoomImage"></div>
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <div class="p-3" style="background-color:#f0f0f0">詳細資料</div>
@@ -150,23 +150,24 @@
                             <div class="col-12">
                                 <div class="p-3" style="background-color:#456990 ;color: #ffffff">建模</div>
                             </div>
+
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                         </div>
                     </div>
@@ -177,27 +178,27 @@
                         <div id="s2" class="p-3" style="background-color:#456990 ;color: #ffffff">影片</div>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <div id="s2" class="p-3"> </div>
+                        <div id="s2" class="zoomImage"></div>
                     </div>
                     <div class="col">
                         <div id="s1" class="row g-2">
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                             <div class="col-4">
-                                <div class="p-3"> </div>
+                                <div class="zoomImage"></div>
                             </div>
                         </div>
                     </div>
@@ -205,10 +206,20 @@
             </div>
         </div>
     </div>
-    <footer style="text-align: center;">
-        <p>© 2021 WUA</p>
-    </footer>
 
+    <footer class="py-2" style="text-align: center;">
+        <ul class="nav justify-content-center" style="margin: 10px 0px">
+            <li class="nav-item"><a href="#" class="nav-link text-light px-2">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light px-2">Wan Zhen</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light px-2">UBin</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light px-2">Cheng Chun</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light px-2">FAQs</a></li>
+        </ul>
+        <div class="col">
+            <img src="images/logo-2.svg" alt="Logo" style="width:100px;">
+            <p class="text-center">© 2021 WUA, Inc</p>
+        </div>
+    </footer>
 
 </body>
 
