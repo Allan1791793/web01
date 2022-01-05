@@ -1,7 +1,7 @@
-.author .Avatar {
+.author img {
     border-style: solid;
     border-color: #7c7c7c80;
-    border-width: 1px;
+    border-width: 2px;
     max-width: 200px;
     max-height: 200px;
     width: auto;
