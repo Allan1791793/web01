@@ -58,7 +58,7 @@
 }
 
 #s1 div div {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #dddddd;
     text-align: center;
     object-fit: cover;
@@ -87,4 +87,11 @@
     -webkit-background-size:cover;
     -moz-background-size:cover;
     background-size:cover;
+}
+
+h4{
+    color: #114B5F;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 0px;
 }
