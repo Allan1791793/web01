@@ -1,3 +1,7 @@
+body {
+    margin: 100px 0px 0px 0px;
+  }
+
 .author img {
     border-style: solid;
     border-color: #7c7c7c80;
@@ -6,7 +10,6 @@
     max-height: 200px;
     width: auto;
     height: auto;
-
 }
 
 .name {

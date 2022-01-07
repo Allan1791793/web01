@@ -1,3 +1,7 @@
+body {
+    margin: 120px 0px 0px 0px;
+  }
+
 .author img {
     border-style: solid;
     border-color: #7c7c7c80;
@@ -6,7 +10,6 @@
     max-height: 200px;
     width: auto;
     height: auto;
-
 }
 
 .name {
@@ -26,13 +29,19 @@
 }
 
 .author svg {
+    width: 20px;
+    height: 20px;
+    margin: 10px 5px;
+}
+
+.oso svg {
     color: #b6b6b6;
     width: 20px;
     height: 20px;
     margin: 10px 5px;
 }
 
-.author svg:hover {
+.oso svg:hover {
     color: #114B5F;
     width: 20px;
     height: 20px;
