@@ -43,17 +43,37 @@
   color: #ffffff;
 }
 
-#a3 {
+.a4{
+  color: #ffffff;
+}
+
+.a4:hover {
+  background-color: #0c8d9e;
+  color: #ffffff;
+}
+
+.a4:active {
   background-color: #F45B69;
   color: #ffffff;
 }
 
-#a3:hover {
+.a4 a{
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration:none;
+}
+
+.a3 {
+  background-color: #F45B69;
+  color: #ffffff;
+}
+
+.a3:hover {
   background-color: #f17f89;
   color: #ffffff;
 }
 
-#a3:active {
+.a3:active {
   background-color: #456990;
   color: #ffffff;
 }
@@ -99,4 +119,8 @@ button.active {
 .b3 a:hover{
   background-color: #114B5F;
   color: #ffffff
+}
+
+.d1 a{
+  margin: 0px 5px;
 }

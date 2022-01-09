@@ -19,7 +19,8 @@
 
     <div class="container-fluid">
         <div class="row align-items-center">
-            <nav style="background-color:#114B5F" class="navbar navbar-expand-sm navbar-dark fixed-top shadow-lg">
+            <nav style="background-color:#114B5F;backdrop-filter: blur(100px);"
+                class="navbar navbar-expand-sm navbar-dark fixed-top">
                 <div class="container-fluid">
 
                     <a class="btn navbar-brand" href="index.html">
@@ -85,14 +86,13 @@
         </div>
     </div>
 
-
     <!--個人資料-->
 
     <div class="container">
 
         <div class="row author w-auto gy-2 justify-content-center" style="margin:0 0 0 0">
 
-            <div class="col-md-12 col-lg-4 gx-5" style="width: auto;height: auto;">
+            <div class="col-md-12 col-lg-4 gx-5" style="width: auto;height: auto">
                 <img src="./images/浣熊.jpg" class="Avatar img-fluid rounded-circle rounded mx-auto d-block" alt=""
                     style="margin:0 0 15px 0">
                 <h4 class="name" style="margin:0 0 0px 0">Wan Zhen</h4>
@@ -128,7 +128,7 @@
             </div>
 
             <div class="b342 col-md-12 col-lg-8 gx-5 align-self-center">
-                <p>哈囉，我叫宛臻，擅長用電腦繪圖繪製後塗插畫，會使用的工具有:Ps、Ai、Maya、Unity、Substance、Ae</p>
+                <p>哈囉，我叫宛臻，擅長用電腦繪圖繪製後塗插畫，會使用的工具有：Ps、Ai、Maya、Unity、Substance、Ae</p>
             </div>
         </div>
 
@@ -137,78 +137,88 @@
         <hr style="margin: 30px 0px">
 
         <div class="row">
-            <div class="col-12 col-lg-9" style="margin: 0px 0px 20px 0px;">
-                <div class="row">
-                    <div class="col">
-                        <div class="card MG">
-                            <div class="card-body">
-                                <h5 class="card-title">MG動畫-自我介紹</h5>
-                                <p class="card-text">製作軟體 : After Effect</p>
-                            </div>
-                            <div class="ratio ratio-16x9"><iframe class="rounded"
-                                    src="https://www.youtube.com/embed/IBzmKQUWilQ" title="YouTube video"
-                                    allowfullscreen>
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row py-3">
-
-                    <div class="col-12">
-                        <h4 class="mb-3">寵物介紹</h4>
-                    </div>
-
-                    <div class="col-10 align-self-center d-flex align-items-center">
-                        <img src="./images/woza/小天.png" class="rounded float-start rounded-circle" alt="...">
-                        <p style="margin: 0px 0px 0px 20px;">Woza桌上神奇的石頭生物</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col" style="margin: 0px 0px 20px 0px;">
-
-                <div class="row gy-3">
-                    <div class="col col-lg-12">
-                        <div class="card">
-                            <img src="./images/woza/電繪牛角.JPG" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Illustration</h5>
-                                <p class="card-text">插畫</p>
-                                <a href="woza_Illustration.html" class="btn a3">前往</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col col-lg-12">
-                        <div class="card">
-                            <img src="./images/woza/鍋子-1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Digital 3D</h5>
-                                <p class="card-text">建模</p>
-                                <a href="" class="btn a3">前往</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col col-lg-12">
-                        <div class="card">
-                            <img src="./images/woza/攝影01.JPG" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Photography</h5>
-                                <p class="card-text">攝影</p>
-                                <a href="" class="btn a3">前往</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="col" style="margin:0px 0px 30px 0px">
+                <ul class="nav nav-pills nav-fill gap-1 justify-content-center" id="sas">
+                    <li>
+                        <a class="btn active" aria-current="page" href="#">Illustration</a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#">Digital 3D</a>
+                    </li>
+                    <li>
+                        <a class="btn" href="#">Video</a>
+                    </li>
+                </ul>
             </div>
         </div>
 
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 justify-content-center">
+
+            <div class="col" style="width: 18xp;">
+                <div class="rounded ratio ratio-1x1" style="background-color: #333333;">
+                    <div class="overflow-hidden">
+                        <img src="./images/woza/山海經.JPG"
+                            class="mw-100 mh-100 position-absolute top-50 start-50 translate-middle rounded" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="rounded ratio ratio-1x1">
+                    <div class="overflow-hidden">
+                        <img src="./images/no2.png"
+                            class="mw-100 mh-100 position-absolute top-50 start-50 translate-middle rounded" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="rounded ratio ratio-1x1">
+                    <div class="overflow-hidden">
+                        <img src="./images/no2.png"
+                            class="mw-100 mh-100 position-absolute top-50 start-50 translate-middle rounded" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="rounded ratio ratio-1x1">
+                    <div class="overflow-hidden">
+                        <img src="./images/no2.png"
+                            class="mw-100 mh-100 position-absolute top-50 start-50 translate-middle rounded" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="rounded ratio ratio-1x1">
+                    <div class="overflow-hidden">
+                        <img src="./images/no2.png"
+                            class="mw-100 mh-100 position-absolute top-50 start-50 translate-middle rounded" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="rounded ratio ratio-1x1">
+                    <div class="overflow-hidden">
+                        <img src="./images/no2.png"
+                            class="mw-100 mh-100 position-absolute top-50 start-50 translate-middle rounded" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="rounded ratio ratio-1x1">
+                    <div class="overflow-hidden">
+                        <img src="./images/no2.png"
+                            class="mw-100 mh-100 position-absolute top-50 start-50 translate-middle rounded" alt="...">
+                    </div>
+                </div>
+            </div>
 
 
+        </div>
 
 
     </div>
@@ -217,7 +227,7 @@
 
     <!--頁尾-->
 
-    <footer class="py-3 shadow-lg">
+    <footer class="py-3">
         <div class="col-12">
             <div class="b3 gap-4 justify-content-center" style="text-align: center;">
                 <a class="btn" href="home.html" role="">Home</a>
@@ -261,5 +271,6 @@
             </div>
         </div>
     </footer>
+</body>
 
 </html>
