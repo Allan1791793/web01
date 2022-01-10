@@ -1,11 +1,8 @@
 body {
     margin: 100px 0px 0px 0px;
-  }
+}
 
 .author img {
-    border-style: solid;
-    border-color: #7c7c7c80;
-    border-width: 2px;
     max-width: 200px;
     max-height: 200px;
     width: auto;
@@ -80,18 +77,49 @@ body {
     max-height: 200px;
 }
 
-.zoomImage{
-    width:100%;
-    height:0;
-    padding-bottom: 100%;
-    overflow:hidden;
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    background-size:cover;
+.MG {
+    border-color: #0c8d9e;
 }
 
-.MG{
-    border-color: #0c8d9e;
+.c1 li a {
+    color: #F45B69;
+    border-color: #F45B69;
+    border-width: 1px;
+}
+
+.c1 li a:hover {
+    color: #ffffff;
+    background-color: #F45B69;
+    border-color: #f45b6800;
+}
+
+.c1 li a:active {
+    color: #ffffff;
+    background-color: #456990;
+}
+
+.c1 li button {
+    color: #F45B69;
+    border-color: #F45B69;
+    border-width: 1px;
+}
+
+.c1 li button:hover {
+    color: #ffffff;
+    background-color: #F45B69;
+    border-color: #f45b6800;
+}
+
+.c1 li button:active {
+    color: #ffffff;
+    background-color: #456990;
+}
+
+.c2 a {
+    text-decoration: none;
+    color: #114B5F;
+}
+
+.c2 svg {
+    margin:0 10px 0 0;
 }

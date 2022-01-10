@@ -63,6 +63,20 @@
   text-decoration:none;
 }
 
+.a41 li a{
+  color: #F45B69;
+}
+
+.a41 li a:hover{
+  color: #ffffff;
+  background-color: #F45B69;
+}
+
+.a41 li a:active{
+  color: #ffffff;
+  background-color: #456990;
+}
+
 .a3 {
   background-color: #F45B69;
   color: #ffffff;

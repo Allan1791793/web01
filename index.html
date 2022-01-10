@@ -14,10 +14,11 @@
 </head>
 
 <body style="background-image: url(./images/Comp\ 13_1_1.gif);">
+    <!--導覽列-->
+
     <div class="container-fluid">
-        <div class="row">
-            <nav style="background-color:#114B5F;backdrop-filter: blur(100px);"
-                class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <div class="row align-items-center">
+            <nav style="background-color:#114B5F" class="navbar navbar-expand-sm navbar-dark fixed-top shadow-lg">
                 <div class="container-fluid">
 
                     <a class="btn navbar-brand" href="index.html">
@@ -31,41 +32,36 @@
 
                     <div class="collapse navbar-collapse justify-content-sm-end" id="mynavbar"
                         style="margin:5px 0px 5px 0px;">
-                        <ul class="a2 navbar-nav d-flex gap-3">
-                            <li class="btn nav-item">
-                                <a class="nav-link" href="home.html">HOME</a>
-                            </li>
-                            <li class="btn nav-item">
-                                <a class="nav-link" href="woza.html">Wan Zhen</a>
-                            </li>
-                            <li class="btn nav-item">
-                                <a class="nav-link" href="ubin.html">UBin</a>
-                            </li>
-                            <li class="btn nav-item">
-                                <a class="nav-link" href="allan.html">Cheng Chun</a>
-                            </li>
-                        </ul>
+                        <ul class="a2 navbar-nav d-flex gap-3 ">
+                            <button type="button" class="btn a4 active mh-100 btn-lg"><a
+                                    href="home.html">HOME</a></button>
 
-                        <!--<form class="navbar-nav d-flex">
-                            <input class="form-control me-2 " type="text" placeholder="關鍵字">
-                            <button style="background-color: #F45B69;color:#ffffff" class="btn"
-                                type="button">Search</button>
-                        </form>-->
+                            <div class="btn-group nav-item">
+                                <button type="button" class="btn a4 active"><a href="woza.html">Wan Zhen</a></button>
+                            </div>
+
+                            <div class="btn-group nav-item">
+                                <button type="button" class="btn a4"><a href="ubin.html">Ubin</a></button>
+                            </div>
+
+                            <div class="btn-group">
+                                <button type="button" class="btn a4"><a href="allan.html">Cheng Chun</a></button>
+                            </div>
+                        </ul>
                     </div>
                 </div>
             </nav>
         </div>
-
-        <div class="row position-absolute top-50 start-50 translate-middle">
-            <div class="col-12 m-2">
-                <img src="images/logo-2.svg" class="float-start" alt="logo-2" style="width:300px;">
-            </div>
-            <ul class="col-12 m-2">
-                <a id="a1" type="進入首頁" class="btn" style="font-size:22px;" href="home.html">
-                    進入首頁
-                </a>
-            </ul>
+    </div>
+    <div class="row position-absolute top-50 start-50 translate-middle">
+        <div class="col-12 m-2">
+            <img src="images/logo-2.svg" class="float-start" alt="logo-2" style="width:300px;">
         </div>
+        <ul class="col-12 m-2">
+            <a id="a1" type="進入首頁" class="btn" style="font-size:22px;" href="home.html">
+                進入首頁
+            </a>
+        </ul>
     </div>
 </body>
 
